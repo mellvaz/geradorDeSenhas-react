@@ -30,7 +30,7 @@ Uma aplicação web desenvolvida em React + Vite para geração e cópia instant
 git clone https://github.com/mellvaz/geradorDeSenhas-react.git
 
 # 2. Entre na pasta do projeto
-cd gerador-de-senhas-react
+cd geradorDeSenhas-react
 
 # 3. Instale as dependências
 npm install
