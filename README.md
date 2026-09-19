@@ -1,16 +1,39 @@
-# React + Vite
+# 🔑 Gerador de Senhas Aleatórias
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uma aplicação web desenvolvida em React + Vite para geração e cópia instantânea de senhas seguras com estilo visual personalizado em tema roxo e tipografia urbana.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tecnologias Utilizadas
 
-## React Compiler
+- **React.js** (Componentização e Gerenciamento de Estado com `useState`)
+- **Vite** (Build tool e servidor de desenvolvimento super rápido)
+- **JavaScript (ES6+)** (Lógica de geração de caracteres aleatórios e API do clipboard)
+- **CSS3** (Flexbox, gradientes de texto, animações hover e fontes customizadas do Google Fonts)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🎯 Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [x] Geração de senhas aleatórias compostas por letras, números e símbolos.
+- [x] Cópia da senha para a área de transferência do usuário em 1 clique.
+- [x] Feedback visual no botão ("Copiar" ➔ "Copiado!").
+- [x] Reset do status do botão ao gerar uma nova senha.
+- [x] Interface estilizada com fonte *Black Ops One* e tema roxo *neon*.
+
+---
+
+## 💻 Como rodar o projeto localmente
+
+```bash
+# 1. Clone o repositório
+git clone https://github.com/mellvaz/geradorDeSenhas-react.git
+
+# 2. Entre na pasta do projeto
+cd gerador-de-senhas-react
+
+# 3. Instale as dependências
+npm install
+
+# 4. Inicie o servidor de desenvolvimento
+npm run dev
